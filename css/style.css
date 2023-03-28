@@ -41,17 +41,17 @@ body {
     background: var(--primary-white-color);
 }
 
-.container {
+/*.container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
-.page-container {
+/*.page-container {
     display: flex;
     align-items: center;
-}
+}*/
 
 .list {
     list-style: none;
@@ -83,7 +83,7 @@ body {
     
 }
 
-.menu-link {
+/*.menu-link {
     position: relative;
     font-weight: 500;
     color: var(--color-navy-blue);
@@ -135,11 +135,11 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid var(--color-copnflower);
-}
+}*/
 
 /*========================HERO============================*/
 
-.hero {
+/*.hero {
     background-color: var(--color-navy-blue);
     text-align: center;
     padding-top: 188px;
@@ -181,11 +181,11 @@ body {
 .btn-page-hero:hover,
 .btn-page-hero:focus {
     background-color: var(--color-ocean);
-}
+}*/
 
 /*==================WORK PRINCIPLES===========================*/
 
-.visually-hidden {
+/*.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -232,12 +232,12 @@ body {
     align-items: center;
     margin-bottom: 8px;
     border-radius: 4px;
-}
+}*/
 
 /*=======================WHAT DOING=====================*/
 /*========================OUR TEAM======================*/
 
-.bgr-our-team {
+/*.bgr-our-team {
     background-color: var(--color-cloud);
     padding: 120px 0px;
 }
@@ -311,11 +311,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-}
+}*/
 
 /*====================CUSTOMERS========================*/
 
-.section-customers {
+/*.section-customers {
     padding: 130px 0 120px 0;
 }
 
@@ -342,11 +342,11 @@ body {
 .customers-list-link:hover .customers-icon,
 .customers-list-link:focus .customers-icon {
     fill: var(--color-ocean);
-}
+}*/
  
 /*========================FOOTER==================================*/
 
-.footer {
+/*.footer {
     background-color: var(--color-navy-blue);
     padding: 100px 0px;
 }
@@ -485,10 +485,10 @@ body {
     fill: var(--primary-color-white);
     margin-left: 16px;
     transform: translateY(5px);
-}
+}*/
 /*==========================MODAL WINDOW========================*/
 
-.backdrop {
+/*.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -689,12 +689,12 @@ body {
 .modal-form-submit:hover,
 .modal-form-submit:focus {
     background-color: var(--color-ocean);
-}
+}*/
 /*==========================MODAL WINDOW========================*/
 
 /*======================PORTFOLIO-NAVIGATION====================*/
 
-.menu-btn .btn {
+/*.menu-btn .btn {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--color-iris);
@@ -786,5 +786,5 @@ body {
 
 .cards-galery:hover .overlay {
     transform: translate(0, 0);
-}
+}*/
 

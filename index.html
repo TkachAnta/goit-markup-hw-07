@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -17,7 +18,7 @@
     <!--HEADER-->
 
     <header class="page-header">
-        <div class="container page-container">
+        <div class="container page-container page-mobile-container">
             <nav class="page-nav page-container">
             <a class="logo link" href="./index.html">Web<span class="logotype">Studio</span></a>
             <ul class="menu list page-container">
@@ -29,6 +30,10 @@
                     <a class="menu-link link" href="./contacts.html">Contacts</a></li>
             </ul>
             </nav>
+            <button type="button" class="mobile-menu-open">
+                <svg class="mobile-menu-open-icon" width="32" height="22">
+                    <use href="./images/symbol-defs.svg#icon-burger-icon"></use></svg>
+            </button>
             <address class="address">
                 <ul class="list page-container">
                     <li class="menu-item">
@@ -40,21 +45,48 @@
                 </ul>
             </address>
         </div>
+        <div class="mobile-menu">
+            <div class="container mobile-menu-container">
+            <button type="button" class="mobile-close-btn">
+                <svg class="mobile-close-btn-icon" width="8" height="8">
+                    <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu-list list">
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link current link" href="./index.html">Studio</a></li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="./contacts.html">Contacts</a></li>
+            </ul> 
+            <address class="mobile-address">
+                <ul class="list">
+                    <li class="mobile-menu-item">
+                        <a class="contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li >
+                    <li class="mobile-menu-item">
+                        <a class="contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+        </div>
    </header>
     <main>
 
-        <!--HERO-->
+        <!-- HERO -->
 
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="container">
                 <h1 class="page-hero">Effective Solutions for Your Business</h1>
                 <button class="btn-page-hero" type="button" data-modal-open>Order Service</button>
             </div>
-        </section>
+        </section> -->
 
-        <!--WORK PRINCIPLES-->
+        <!-- WORK PRINCIPLES -->
 
-        <section class="section-work-prin">
+        <!--<section class="section-work-prin">
             <div class="container">
                 <h2 class="visually-hidden">Work principles</h2>
                 <ul class="list page-container page-work-prin">
@@ -99,11 +131,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>-->
 
         <!--WHAT DOING-->
 
-        <section class="section">
+        <!--<section class="section">
             <div class="container">
                 <h2 class="page-title-what">What are we doing</h2>
                 <ul class="list cards-doing page-container">
@@ -118,11 +150,11 @@
                         height="300"></li>
                 </ul>
         </div>
-        </section>
+        </section>-->
 
         <!--OUR TEAM-->
 
-        <section class="bgr-our-team">
+        <!--<section class="bgr-our-team">
             <div class="container">
                 <h2 class="page-title-team">Our Team</h2>
                 <ul class="list page-our-team">
@@ -321,12 +353,12 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>-->
     </main>
 
     <!--FOOTER-->
 
-    <footer class="footer">
+    <!--<footer class="footer">
         <div class="container">
             <div class="block-footer">
             <div class="block-logo">
@@ -383,11 +415,11 @@
             </form>
             </div>
         </div>
-    </footer>
+    </footer>-->
 
     <!--MODAL WINDOW-->
 
-    <div class="backdrop is-hidden" data-modal>
+   <!--<div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-btn-icon" width="8" height="8">
@@ -441,7 +473,7 @@
                 <button type="submit" class="modal-form-submit">Send</button>
             </form>
         </div>
-    </div>
+    </div>-->
 <script src="./js/modal.js"></script>
 </body>
 </html>
