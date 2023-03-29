@@ -83,7 +83,7 @@ body {
     
 }
 
-/*.menu-link {
+.menu-link {
     position: relative;
     font-weight: 500;
     color: var(--color-navy-blue);
@@ -129,7 +129,7 @@ body {
 
 .menu-item:not(:last-child) {
     margin-right: 40px;
-}*/
+}
 
 .page-header {
     padding-top: 24px;
@@ -185,7 +185,7 @@ body {
 
 /*==================WORK PRINCIPLES===========================*/
 
-/*.visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -197,6 +197,8 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
 
 .page-work-prin .title {
     font-weight: 500;
@@ -232,7 +234,7 @@ body {
     align-items: center;
     margin-bottom: 8px;
     border-radius: 4px;
-}*/
+}
 
 /*=======================WHAT DOING=====================*/
 /*========================OUR TEAM======================*/

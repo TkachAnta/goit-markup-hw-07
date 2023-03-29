@@ -17,6 +17,31 @@
     width: 320px;
 }
 
+.section-work-prin {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.page-work-prin .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--color-navy-blue);
+    margin-bottom: 8px;
+}
+.card {
+    margin-bottom: 72px;
+}
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.section-work-prin {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+
 @media screen and (max-width: 767px) {
     .address {
     display: none;
@@ -24,6 +49,17 @@
     .menu-link {
     display: none;
 }
+
+.contact-email,
+.contact-phone-number {
+    display: none;
+}
+
+.block-work {
+    display: none;
+}
+
+
 }
 
 /*====================HEADER======================*/
@@ -51,7 +87,6 @@
     right: 0;
     background-color: var(--primary-color-white);
     z-index: 1000;
-    max-height: 796px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
     opacity: 1;
@@ -96,10 +131,24 @@
     fill: var(--primary-color-white);
 }
 
-.mobile-menu-link a {
-    font-weight: 700px;
-    font-style: 36px;
+.mobile-menu-link,
+.mobile-phone {
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.11;
+    color: var(--color-navy-blue);
+    text-transform: capitalize;
+}
+
+.mobile-phone {
+    color: var(--color-iris);
+    font-style: normal;
+}
+.mobile-email {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color-slate);
 }
 
 .mobile-menu-item:not(:last-child) {
@@ -119,8 +168,11 @@
 
 .mobile-menu-menu {
     margin-top: auto;
+    
 }
-
+.mobile-contacts {
+margin-bottom: 48px;
+}
 .mobile-list-link {
     border-radius: 50%;
     width: 40px;
@@ -142,8 +194,13 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 56px;
-}
+    }
+
 
 /*====================HERO========================*/
+/*==================WORK PRINCIPLES===========================*/
+
+
+
 
 
