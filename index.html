@@ -18,7 +18,7 @@
     <!--HEADER-->
 
     <header class="page-header">
-        <div class="container page-container page-mobile-container">
+        <div class="container page-container">
             <nav class="page-nav page-container">
             <a class="logo link" href="./index.html">Web<span class="logotype">Studio</span></a>
             <ul class="menu list page-container">
@@ -29,11 +29,12 @@
                 <li class="menu-item">
                     <a class="menu-link link" href="./contacts.html">Contacts</a></li>
             </ul>
-            </nav>
-            <button type="button" class="mobile-menu-open">
+            </nav>        
+            <button type="button" class="mobile-menu-open" js-open-menu>
                 <svg class="mobile-menu-open-icon" width="32" height="22">
-                    <use href="./images/symbol-defs.svg#icon-burger-icon"></use></svg>
+                    <use href="./images/symbol-defs.svg#icon-icon-menu"></use></svg>
             </button>
+        </div>
             <address class="address">
                 <ul class="list page-container">
                     <li class="menu-item">
@@ -44,14 +45,17 @@
                     </li>
                 </ul>
             </address>
-        </div>
-        <div class="mobile-menu">
+
+    <!--MOBILE MENU--> 
+
+        <div class="mobile-menu is-open" js-menu-container>
             <div class="container mobile-menu-container">
-            <button type="button" class="mobile-close-btn">
+            <button type="button" class="mobile-close-btn" js-close-menu>
                 <svg class="mobile-close-btn-icon" width="8" height="8">
                     <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
                 </svg>
             </button>
+            
             <ul class="mobile-menu-list list">
                 <li class="mobile-menu-item">
                     <a class="mobile-menu-link current link" href="./index.html">Studio</a></li>
@@ -60,16 +64,48 @@
                 <li class="mobile-menu-item">
                     <a class="mobile-menu-link link" href="./contacts.html">Contacts</a></li>
             </ul> 
+            
+            <div class="mobile-menu-menu">
             <address class="mobile-address">
                 <ul class="list">
                     <li class="mobile-menu-item">
-                        <a class="contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li >
                     <li class="mobile-menu-item">
                         <a class="contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
+            <ul class="mobile-list list">
+                <li class="mobile-list-item"><a class="mobile-list-link" href="">
+                    <svg class="mobile-icon" width="16" height="16"> 
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use> 
+                    </svg>
+                </a>                  
+                </li>
+
+                <li class="mobile-list-item"><a class="mobile-list-link" href="">
+                    <svg class="mobile-icon" width="16" height="16"> 
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use> 
+                    </svg>
+                </a>                  
+                </li>
+
+                <li class="mobile-list-item"><a class="mobile-list-link" href="">
+                    <svg class="mobile-icon" width="16" height="16"> 
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use> 
+                    </svg>
+                </a>                  
+                </li>
+
+                <li class="mobile-list-item"><a class="mobile-list-link" href="">
+                    <svg class="mobile-icon" width="16" height="16"> 
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use> 
+                    </svg>
+                </a>                  
+                </li>
+            </ul>
+        </div>
         </div>
         </div>
    </header>
@@ -77,12 +113,12 @@
 
         <!-- HERO -->
 
-        <!-- <section class="hero">
+        <section class="hero">
             <div class="container">
                 <h1 class="page-hero">Effective Solutions for Your Business</h1>
                 <button class="btn-page-hero" type="button" data-modal-open>Order Service</button>
             </div>
-        </section> -->
+        </section>
 
         <!-- WORK PRINCIPLES -->
 
@@ -475,5 +511,6 @@
         </div>
     </div>-->
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
