@@ -144,7 +144,7 @@ body {
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/img-mobile/people-office-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -236,10 +236,15 @@ body {
     border-radius: 4px;
 }
 
+.page-container-work {
+    display: flex;
+    align-items: center;
+}
+
 /*=======================WHAT DOING=====================*/
 /*========================OUR TEAM======================*/
 
-/*.bgr-our-team {
+.bgr-our-team {
     background-color: var(--color-cloud);
     padding: 120px 0px;
 }
@@ -313,11 +318,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-}*/
+}
 
 /*====================CUSTOMERS========================*/
 
-/*.section-customers {
+.section-customers {
     padding: 130px 0 120px 0;
 }
 
@@ -333,6 +338,8 @@ body {
 }
 
 .customers-icon {
+    width: 104px;
+    height: 56px;
     fill: var(--color-light-slate);
     transition: fill 250ms var(--transition);
 }
@@ -344,11 +351,11 @@ body {
 .customers-list-link:hover .customers-icon,
 .customers-list-link:focus .customers-icon {
     fill: var(--color-ocean);
-}*/
+}
  
 /*========================FOOTER==================================*/
 
-/*.footer {
+.footer {
     background-color: var(--color-navy-blue);
     padding: 100px 0px;
 }
@@ -386,11 +393,11 @@ body {
 }
 
 .block-social {
-    margin-right: 80px;
+    margin: 0 80px 0 0;
 }
 
 .block-logo {
-    margin-right: 120px;
+    margin: 0 120px 0 0;
 }
 
 .title-social {
@@ -487,10 +494,10 @@ body {
     fill: var(--primary-color-white);
     margin-left: 16px;
     transform: translateY(5px);
-}*/
+}
 /*==========================MODAL WINDOW========================*/
 
-/*.backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -691,7 +698,7 @@ body {
 .modal-form-submit:hover,
 .modal-form-submit:focus {
     background-color: var(--color-ocean);
-}*/
+}
 /*==========================MODAL WINDOW========================*/
 
 /*======================PORTFOLIO-NAVIGATION====================*/
