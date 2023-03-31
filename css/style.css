@@ -243,12 +243,10 @@ body {
 
 /*=======================WHAT DOING=====================*/
 /*========================OUR TEAM======================*/
-
 .bgr-our-team {
     background-color: var(--color-cloud);
     padding: 120px 0px;
 }
-
 .page-title-what,
 .page-title-team,
 .page-title-customers {
@@ -260,7 +258,6 @@ body {
     margin-bottom: 72px;
     text-align: center;
 }
-
 .page-our-team .title {
     font-weight: 500;
     font-size: 20px;
@@ -268,19 +265,16 @@ body {
     color: var(--color-navy-blue);
     margin-bottom: 8px;
 }
-
 .page-our-team .text {
     color: var(--primary-text-color-slate);
     margin-bottom: 8px;
 }
-
 .page-our-team,
 .customers-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
-
 .card-our-team {
     flex-basis: calc((100% - 72px) / 4);
     background-color: var(--primary-color-white);
@@ -288,16 +282,13 @@ body {
     border-radius: 0px 0px 4px 4px;
     border-top: none;
 }
-
 .section {
     padding-bottom: 120px;
 }
-
 .blok-img {
     padding: 32px 16px;
     text-align: center;
 }
-
 .team-list-link {
     border-radius: 50%;
     width: 40px;
@@ -308,12 +299,10 @@ body {
     align-items: center;
     transition: background-color 250ms var(--transition);
 }
-
 .team-list-link:hover,
 .team-list-link:hover {
     background-color: var(--color-ocean);
 }
-
 .team-list {
     display: flex;
     justify-content: center;

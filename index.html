@@ -20,6 +20,7 @@
 
     <header class="page-header">
         <div class="container page-container">
+            <div class="header-tablet">
             <nav class="page-nav page-container">
             <a class="logo link" href="./index.html">Web<span class="logotype">Studio</span></a>
             <ul class="menu list page-container">
@@ -46,7 +47,7 @@
                     </li>
                 </ul>
             </address>
-
+            </div>
     <!--MOBILE MENU--> 
 
         <div class="mobile-menu is-open" js-menu-container>
@@ -175,27 +176,37 @@
             <div class="container">
                 <h2 class="page-title-what">What are we doing</h2>
                 <ul class="list cards-doing page-container">
-                    <li class="card"><img src="./images/monitor.jpg" alt="monitor" 
+                    <li class="card">
+                        <img 
+                        srcset="./images/monitor@2x.jpg 2x"
+                        src="./images/monitor.jpg" alt="monitor" 
                         width="360" 
                         height="300"></li>
-                    <li class="card"><img src="./images/mobilephone.jpg" alt="mobile phones" 
+                    <li class="card">
+                        <img srcset="./images/mobilephone@2x.jpg 2x"
+                        src="./images/mobilephone.jpg" alt="mobile phones" 
                         width="360" 
                         height="300"></li>
-                    <li class="card"><img src="./images/phone-in-hand.jpg" alt="mobile phone in hand" 
+                    <li class="card">
+                        <img srcset="./images/phone-in-hand@2x.jpg 2x"
+                        src="./images/phone-in-hand.jpg" alt="mobile phone in hand" 
                         width="360" 
                         height="300"></li>
                 </ul>
         </div>
         </section>
 
-        <!--OUR TEAM-->
+                                               <!--OUR TEAM-->
 
         <section class="bgr-our-team">
-            <div class="container">
+            <div class="container-team">
                 <h2 class="page-title-team">Our Team</h2>
                 <ul class="list page-our-team">
                     <li class="card-our-team">
-                        <img src="./images/our-team/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
+                        <img 
+                        srcset="./images/our-team/mark-guerrero@2x.jpg 2x" 
+                        src="./images/our-team/mark-guerrero.jpg" 
+                        alt="Mark Guerrero" width="264" height="260">
                         <div class="blok-img">
                             <h3 class="title">Mark Guerrero</h3>
                             <p class="text">Product Designer</p>
@@ -233,7 +244,10 @@
                     </li>
 
                     <li class="card-our-team">
-                        <img src="./images/our-team/tom-ford.jpg" alt="Tom Ford" width="264" height="260">
+                        <img 
+                        srcset="./images/our-team/tom-ford@2x.jpg 2x"
+                        src="./images/our-team/tom-ford.jpg" 
+                        alt="Tom Ford" width="264" height="260">
                         <div class="blok-img">
                             <h3 class="title">Tom Ford</h3>
                             <p class="text">Frontend Developer</p>
@@ -271,7 +285,10 @@
                     </li>
 
                     <li class="card-our-team">
-                        <img src="./images/our-team/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260">
+                        <img 
+                        srcset="./images/our-team/camila-garcia@2x.jpg 2x"
+                        src="./images/our-team/camila-garcia.jpg" 
+                        alt="Camila Garcia" width="264" height="260">
                         <div class="blok-img">
                             <h3 class="title">Camila Garcia</h3>
                             <p class="text">Marketing</p>
@@ -308,7 +325,11 @@
                         </div>
                     </li>
                     
-                    <li class="card-our-team"><img src="./images/our-team/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260">
+                    <li class="card-our-team">
+                        <img 
+                        srcset="./images/our-team/daniel-wilson@2x.jpg 2x"
+                        src="./images/our-team/daniel-wilson.jpg" 
+                        alt="Daniel Wilson" width="264" height="260">
                         <div class="blok-img">
                             <h3 class="title">Daniel Wilson</h3>
                             <p class="text">UI Designer</p>
@@ -347,8 +368,10 @@
                 </ul>
         </div>
         </section>
+
+                      <!--CUSTOMERS-->
         <section class="section-customers">
-            <div class="container">
+            <div class="container-team">
                 <h2 class="page-title-customers">Customers</h2>
                 <ul class="customers-list list">
                     <li class="customers-list-item"><a class="customers-list-link" href="">
