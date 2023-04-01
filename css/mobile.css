@@ -1,13 +1,10 @@
 @media screen and (min-width: 480px) {
     .container {
     width: 425px;
-    margin-left: auto;
-    margin-right: auto;
+    
     }
 
-    .page-container {
-        justify-content: space-between;
-    }
+
 
 /*====================HEADER======================*/
 
@@ -23,6 +20,10 @@
     cursor: pointer;
     
 
+}
+
+.header-burger {
+    display: flex;
 }
 
 /*====================HEADER======================*/
@@ -66,6 +67,8 @@
     .page-our-team {
         display: block;
     }
+
+    
 
 /*====================CUSTOMERS========================*/
     
@@ -166,6 +169,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
     .section {
     display: none;
+}
+
+.page-container {
+    display: block;
 }
 
 }

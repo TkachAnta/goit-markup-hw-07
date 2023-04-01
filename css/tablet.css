@@ -1,9 +1,12 @@
 @media screen and (min-width: 768px) {
     .container {
     width: 766px;
-    margin-left: auto;
-    margin-right: auto;
     }
+
+    .page-container {
+        justify-content: space-between;
+    }
+
   /*=========================HEADER======================*/ 
     .block-address {
         display: flex;
@@ -23,6 +26,26 @@
 .page-header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+.block-address {
+    display: block;
+    align-items: flex-start;
+    padding: 0;
+}
+.header-list {
+    display: flex;
+}
+
+.current::after {
+    transform: translateY(32px); 
+}
+
+.page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
 /*========================HERO============================*/
 .page-hero {
     font-size: 56px;
@@ -165,6 +188,8 @@ screen and (min-resolution: 2dppx) and (max-width: 1199px) {
     .block-work {
         display: none;
     }
+
+    
 }
 
 @media screen and (max-width: 1199px) {

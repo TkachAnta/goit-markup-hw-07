@@ -1,8 +1,7 @@
 @media screen and (min-width: 1199px) {
     .container {
     width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
+   
     }
 
     /*=========================HEADER======================*/
@@ -12,6 +11,10 @@
     color: var(--primary-text-color);
     font-style: normal;
     transition: color 250ms var(--transition);
+    }
+
+    .block-address {
+        display: flex;
     }
 
 /*==================WORK PRINCIPLES===========================*/
@@ -59,7 +62,9 @@
     flex-basis: calc((100% - 72px) / 4);
 }
 
-
+.section-customers {
+    padding: 130px 0 120px 0;
+}
 
 }
 
