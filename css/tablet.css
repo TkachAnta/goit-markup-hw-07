@@ -367,14 +367,19 @@
       justify-content: center;
       align-items: center;
     }
+   .container-wrap {
+      display: block;
+  }
     .container-left {
       padding-left: 108px;
       margin-bottom: 72px;
     }
+    .container-right {
+      margin-left: 0;
+    }
     .footer-subscribe {
       display: flex;
       flex-direction: column;
-      gap: 16px;
       padding-left: 108px;
     }
     .footer-subscribe-title {
