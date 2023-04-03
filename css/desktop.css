@@ -402,8 +402,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/desktop/people-office1.jpg),
-        url(../images/desktop/people-office1.webp);
+        url(../images/people-office.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -783,8 +782,7 @@
           to right,
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
-        url(../images/desktop/people-office1@2x.jpg)
-        url(../images/desktop/people-office1@2x.webp);
+        url(../images/people-office.jpg);
     }
   }
   

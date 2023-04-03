@@ -172,7 +172,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/tablet/Dark-bg.jpg), url(../images/tablet/Dark-bg.webp);
+        url(../images/people-office.jpg);
     }
   
     .features-list-icon {
@@ -429,8 +429,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/tablet/Dark-bg@2x.jpg),
-        url(../images/tablet/Dark-bg@2x.webp);
+        url(../images/people-office.jpg);
     }
   }
   
