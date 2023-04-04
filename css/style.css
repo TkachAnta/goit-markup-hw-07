@@ -75,7 +75,7 @@
     margin: -1px;
   }
 
-  /*------------------ HEADER--------------------------- */
+  /*===HEADER===*/
   
   .header {
     border-bottom: 1px solid var(--color_cornflower);
@@ -146,6 +146,7 @@
 
   .current {
     color: var(--color_iris);
+    transform: translateY(1px);
   }
 
   .address-list {
@@ -249,7 +250,7 @@
     fill: var(--color_white);
   }
 
-  /* ----------MODAL INPUT ------*/
+  /*===MODAL INPUT===*/
 
   .mobile-menu-icon {
       stroke: var(--color_navy-blue-modal);
@@ -266,7 +267,6 @@
       position: relative;
       width: 100%;
       display: flex;
-      position: relative;
       flex-direction: column;
       justify-content: space-between;
       padding: 80px 40px 40px;
@@ -285,6 +285,7 @@
   color: var(--color_navy-blue-modal);
   margin-bottom: 16px;
   }
+  
   .close-modal-icon {
     fill: var(--color_navy-blue-modal);
   }
@@ -307,12 +308,13 @@
     display: flex;
     flex-direction: column;
     gap: 48px;
+    padding-left: 40px;
   }
   .modal-forms {
     margin: 0 auto;
   }
   .mobile-menu-content {
-    margin-bottom: 120px;
+    margin-bottom: auto;
   }
   .mobile-menu-content-group {
     display: flex;
@@ -354,7 +356,7 @@
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
-      color: #434455;
+      color: var(--color_slate);
     }
     .social-div-group {
       display: flex;
@@ -421,7 +423,7 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
-    color: #8e8f99;
+    color: var(--color_light-slate);
     margin-bottom: 4px;
   }
   .accept-form {
@@ -430,7 +432,7 @@
     line-height: 1.16;
     letter-spacing: 0.04em;
     padding-top: 16px;
-    color: #8e8f99;
+    color: var(--color_light-slate);
   }
   .btn-forma-modal {
     display: block;
@@ -447,7 +449,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--color_white);
     padding: 0px;
   }
   .btn-forma-modal:hover,
@@ -488,7 +490,7 @@
     width: 16px;
     height: 16px;
     border-radius: 2px;
-    border: 1.25px solid #404bbf;
+    border: 1.25px solid var(--color_ocean);
     margin-right: 8px;
     transform: translate(0);
     cursor: pointer;
@@ -504,18 +506,18 @@
   .policy {
     color: var(--color_iris);
   }
-  /* --- ------Main section------------------------------  */
-  hero {
+  /*===HERO===*/
+  .hero {
     background-color: var(--color_navy-blue);
   }
   .title-hero {
       font-weight: 700;
-      font-size: 36px;
-      line-height: 1.11;
+      font-size: 56px;
+      line-height: 1.08;
       text-align: center;
       letter-spacing: 0.02em;
       color: var(--color_white);
-      margin-bottom: 72px;
+      margin-bottom: 36px;
     }
   .btn-hero {
     display: block;
@@ -548,7 +550,7 @@
     color: var(--color_white);
   }
   
-    /* ----------Features section--------------- */
+    /*===FEATURES===*/
   
   
   .features-item {
@@ -609,7 +611,7 @@
     font-size: 16px;
   }
   
-  /* What are we doing */
+  /*===WHER ARE DOIHG===*/
   .target {
     padding-bottom: 120px;
   }
@@ -759,7 +761,7 @@
     transition: color var(--hover-transition);
   } */
 
-  /*------------------------------ PORTFOLIO---------------------------- */
+  /*===PORTFOLIO===*/
 
   .portfolio {
     padding-top: 96px;
@@ -873,7 +875,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #4d5ae5;
+    background-color: var(--color_iris);
     color: var(--color_cloud);
     padding: 40px 32px 164px 32px;
     opacity: 0.9;
@@ -926,7 +928,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--color_white);
     margin-bottom: 16px;
   }
   
@@ -951,7 +953,7 @@
   }
   .social-link-footer:hover,
   .social-link-footer:focus {
-    background-color: #31d0aa;
+    background-color: var(--color_green);
   }
   .footer-subscribe {
     margin-left: auto;
@@ -962,7 +964,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--color_white);
     align-items: center;
     margin-bottom: 16px;
   }
@@ -973,10 +975,10 @@
   
   .footer-input {
     box-sizing: border-box;
-    color: #ffffff;
+    color: var(--color_white);
     background-color: #2e2f42;
     width: 264px;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--color_white);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 400;

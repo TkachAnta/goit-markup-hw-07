@@ -79,13 +79,13 @@
       padding-bottom: 0;
     }
     .address-link-text {
+      font-size: 12px;
       line-height: 1.16;
       letter-spacing: 0.02em;
       color: var(--color_slate);
       text-decoration: none;
       font-style: normal;
       transition: color var(--hover-transition);
-      /* because of default for a href="mail/tel: is italic */
     }
     .address-item:not(:last-child) {
       margin-right: 40px;
@@ -149,10 +149,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #e7e9fc;
+      background-color: var(--color_cornflower);
       width: 24px;
       height: 24px;
-      border: 1px solid #e7e9fc;
+      border: 1px solid var(--color_cornflower);
       border-radius: 50%;
       margin-bottom: 24px;
       top: 24px;
@@ -162,8 +162,8 @@
     }
     .modal-btn:hover,
     .modal-btn:focus {
-      background-color: #404bbf;
-      fill: #ffffff;
+      background-color: var(--color_ocean);
+      fill: var(--color_white);
     }
   
     .overlay {
@@ -173,6 +173,8 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office.jpg);
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
   
     .features-list-icon {
@@ -281,7 +283,7 @@
     .social-team-link:is(:hover, :focus) {
       background-color: var(--color_ocean);
     }
-    /* Customers */
+    /*===CUSTOMERS===*/
     .customers {
       padding-top: 96px;
       padding-bottom: 96px;
@@ -302,7 +304,7 @@
       justify-content: center;
       border-radius: 4px;
       border: 1px solid currentColor;
-      color: #8e8f99;
+      color: var(--color_light-slate);
       transition: color var(--hover-transition);
     }
     .social-icon {
@@ -311,7 +313,7 @@
     .social-customers-link:is(:hover, :focus) {
       color: var(--color_ocean);
     }
-    /* tablet */
+    /*===FOOTER===*/
     .footer {
       padding-top: 100px;
       padding-bottom: 100px;
@@ -349,7 +351,7 @@
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      color: #ffffff;
+      color: var(--color_white);
       margin-bottom: 16px;
       text-align: center;
     }
@@ -388,7 +390,7 @@
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      color: #ffffff;
+      color: var(--color_white);
     }
     .footer-block {
       display: flex;
@@ -396,11 +398,11 @@
     }
     .footer-input {
       box-sizing: border-box;
-      color: #ffffff;
+      color: var(--color_white);
       background-color: #2e2f42;
       width: 264px;
       height: 40px;
-      border: 1px solid #ffffff;
+      border: 1px solid var(--color_white);
       border-radius: 4px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       font-weight: 400;
