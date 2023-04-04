@@ -427,6 +427,7 @@
     color: var(--color_light-slate);
     margin-bottom: 4px;
   }
+  
   .accept-form {
     font-weight: 400;
     font-size: 12px;
@@ -498,7 +499,7 @@
   }
   .modal-form-check:checked + .accept-form::before {
     background-color: var(--color_iris);
-    background-image: url(../images/symbol-defs.svg#icon-icon-send);
+    background-image: url(../images/Vector.svg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -848,6 +849,7 @@
     color: var(--color_white);
     background-color: #2e2f42;
     width: 264px;
+    height: 40px;
     border: 1px solid var(--color_white);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

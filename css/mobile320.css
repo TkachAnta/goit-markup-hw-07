@@ -328,6 +328,8 @@
       background-color: var(--color_iris);
       justify-content: center;
       align-items: center;
+      margin-right: auto;
+      margin-left: auto;
       gap: 16px;
       color: rgba(255, 255, 255, 1);
       border-color: transparent;

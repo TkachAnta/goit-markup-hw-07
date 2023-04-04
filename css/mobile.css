@@ -297,7 +297,7 @@
       flex-direction: column;
       gap: 16px;
       justify-content: center;
-      align-items: center;
+      /*align-items: center;*/
     }
     .footer-subscribe-title {
       display: block;
@@ -315,6 +315,8 @@
       height: 40px;
       border-radius: 4px;
       padding: 8px 24px;
+      margin-right: auto;
+      margin-left: auto;
       background-color: var(--color_iris);
       justify-content: center;
       align-items: center;
