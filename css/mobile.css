@@ -28,7 +28,7 @@
       transition: transform 250ms ease-in-out;
     }
     .mobile-menu.is-open {
-      transform: translateX(15%);
+      transform: translateX(0%);
     }
     .current {
       color: var(--color_ocean);
@@ -65,6 +65,9 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office.jpg);
+    }
+    .features-item {
+      width: 100%;
     }
     .features-svg {
       display: none;
