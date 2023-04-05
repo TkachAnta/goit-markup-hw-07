@@ -69,24 +69,25 @@
     .features-item {
       width: 100%;
     }
-    .features-svg {
-      display: none;
-    }
+    
     .features {
       padding-top: 96px;
       padding-bottom: 96px;
     }
-    .features-icon-group {
+    .block-work {
       display: none;
     }
-    .features-list-text {
+    .features-item {
+      margin-right: 0;
+    }
+    .features-list {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       gap: 72px;
     }
-    .features-title {
+    .features-list .title {
       font-weight: 700;
       font-size: 36px;
       text-align: center;
@@ -96,7 +97,7 @@
       color: var(--color_navy-blue-modal);
       margin-bottom: 8px;
     }
-    .features-text {
+    .features-list .text {
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -324,5 +325,7 @@
       color: rgba(255, 255, 255, 1);
       border-color: transparent;
     }
+
+    
   }
   

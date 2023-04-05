@@ -429,12 +429,11 @@
   }
   
   .accept-form {
-    font-weight: 400;
+    display: flex;
+    align-items: center;
     font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.04em;
-    padding-top: 16px;
-    color: var(--color_light-slate);
+    margin-bottom: 24px;
+    transition: border 250ms var(--transition) border-radius 250ms var(--transition);
   }
   .btn-forma-modal {
     display: block;
@@ -554,16 +553,32 @@
   
     /*===FEATURES===*/
   
-  
-  .features-item {
-    width: 264px;
-    justify-content: center;
+   .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
-  .features-list-block {
-      justify-content: center;
-      align-items: center;
+  
+  /*.features-item {
+    margin-right: 24px;
+  }*/
+
+  .features-item:last-child {
+    margin: 0;
+  }
+
+  .features-list .title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      color: var(--color_navy-blue);
+      margin-bottom: 8px;
     }
-  .features-svg {
+   
+   .features-list .text {
+    color: var(--color_slate);
+   }
+
+  .block-work {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -574,9 +589,7 @@
     border-radius: 4px;
   }
   
-  .features-item:last-child {
-    margin: 0;
-  }
+  
   .visually-hidden {
     position: absolute;
     width: 1px;
@@ -589,30 +602,9 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
   
-  .features-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color_navy-blue);
-    margin-bottom: 8px;
-  }
-  .features-list-text {
-      display: flex;
   
-    }
-  
-  .features-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-  }
-  
+ 
   /*===WHER ARE DOIHG===*/
   .target {
     padding-bottom: 120px;

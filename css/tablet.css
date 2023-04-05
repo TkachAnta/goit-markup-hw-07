@@ -44,6 +44,9 @@
     .mobile-close-btn {
       display: none;
     }
+    .block-work {
+      display: none;
+    }
     .menu {
       display: flex;
     }
@@ -67,9 +70,9 @@
     .current {
       color: var(--color_iris);
     }
-    .address {
+    /*.address {
       margin-left: auto;
-    }
+    }*/
     .address-list {
       list-style: none;
       display: flex;
@@ -88,7 +91,7 @@
       transition: color var(--hover-transition);
     }
     .address-item:not(:last-child) {
-      margin-right: 40px;
+      margin-right: 0;
     }
     .address-link-text:focus {
       color: var(--color_ocean);
@@ -177,15 +180,14 @@
         padding-bottom: 112px;
     }
   
-    .features-list-icon {
-      display: none;
-    }
+    /*===FEATURES===*/
+
     .features {
       padding-top: 96px;
       padding-bottom: 96px;
     }
   
-    .features-title {
+    .features-list .title {
       font-weight: 700;
       font-size: 36px;
       letter-spacing: 0.02em;
@@ -194,20 +196,29 @@
       color: var(--color_navy-blue-modal);
       margin-bottom: 8px;
     }
+
+    .features-list .text {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--color_slate);
+    }
   
-    .features-list-text {
+    .features-list {
       display: flex;
-      gap: 72px 24px;
+      gap: 72px;
+      column-gap: 24px;
       flex-wrap: wrap;
       align-items: center;
-    }
-    .features-list-block {
       justify-content: center;
-      align-items: center;
     }
+    
     .features-item {
       width: calc((100% - 24px) / 2);
     }
+
     .target {
       display: none;
     }
@@ -345,6 +356,7 @@
     .footer-containers {
       display: flex;
       gap: 16px;
+      margin-bottom: 72px;
     }
     .text-social {
       font-weight: 500;
@@ -373,8 +385,8 @@
       display: block;
   }
     .container-left {
-      padding-left: 108px;
-      margin-bottom: 72px;
+      margin-left: 108px;
+      /*margin-bottom: 72px;*/
     }
     .container-right {
       margin-left: 0;
@@ -382,7 +394,7 @@
     .footer-subscribe {
       display: flex;
       flex-direction: column;
-      padding-left: 108px;
+      margin-left: 108px;
     }
     .footer-subscribe-title {
       display: block;
